@@ -126,5 +126,7 @@ model.fit_generator(train_gen,
 #saving the weights !! 
 
 model.save_weights('First iteration.h5')
+# with just 10 epochs we can get 72-73% 
+
 
 ## reference : https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
